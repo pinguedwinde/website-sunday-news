@@ -1,0 +1,76 @@
+.article-author img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+}
+/****************************Header****************************/
+
+header {
+  grid-template-columns: 1fr;
+  place-items: center center;
+}
+
+nav {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+nav a {
+  padding: 0 0.5rem;
+  white-space: nowrap;
+}
+
+/**************************** Trends ****************************/
+
+.trending {
+  padding: 5rem 1rem;
+  display: grid;
+  row-gap: 3rem;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+}
+
+/**************************** Ads ****************************/
+
+.ads {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ads h1 {
+  line-height: 3rem;
+}
+
+/**************************** Content ****************************/
+
+.tags {
+  display: none;
+}
+
+/**************************** Articles ****************************/
+
+.article {
+  grid-template-columns: auto 10rem;
+  margin: 4rem 0;
+}
+
+article img {
+  height: 10rem;
+}
+
+.article h3 {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  height: 4.6rem;
+  overflow: hidden;
+  padding: 1rem 0.5rem;
+}
+
+.article .article-content {
+  display: none;
+}
+
+.tag-hint {
+  display: none;
+}
